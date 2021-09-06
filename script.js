@@ -98,9 +98,9 @@ window.addEventListener('DOMContentLoaded', () => {
         scoreBoard.computer = 0;
         scoreBoard.draw = 0;
         score.innerHTML = `
-            <p> Player: ${scoreBoard.player} <p/>
-            <p> Computer: ${scoreBoard.computer} <p/>
-            <p> Computer: ${scoreBoard.draw} <p/>
+            <p> Player: ${scoreBoard.player} </p>
+            <p> Computer: ${scoreBoard.computer} </p>
+            <p> Computer: ${scoreBoard.draw} </p>
         `
     }
 
